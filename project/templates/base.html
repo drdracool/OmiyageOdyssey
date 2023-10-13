@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <title>{% block title %}Omiyage Odyssey{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- <img src="{% static 'images/logo.png' %}"> -->
+    <div id="content">
+        {% block content %}
+        {% endblock %}
+    </div>
+    {% block script %}
+    {% endblock %}
+</body>
+
+</html>

@@ -1,0 +1,802 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* html,
+body {
+  height: 100%;
+  font-size: 16px;
+} */
+
+.products {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+  max-width: 100%;
+
+  /* background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%; */
+}
+
+.products .div {
+  /* background-color: #ffffff; */
+  /* max-width: 100%;  */
+  /* padding: 20px;  */
+
+  background-color: #ffffff;
+  height: 3672px;
+  overflow: hidden;
+  position: relative;
+  max-width: 100%;
+}
+
+.products .text-input-container {
+  background-color: #fff8ec;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-color: #000000;
+  /* border-top-style: solid;
+  border-top-width: 3px; */
+  height: 86px;
+  left: 0;
+  /* position: absolute; */
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.products .home-menu {
+  color: #000000;
+  font-family: "Overpass Mono", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  left: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  /* position: absolute; */
+  top: 27px;
+  margin-left: 67px;
+  margin-right: 60px;
+}
+
+.products .findastore-menu {
+  color: #000000;
+  font-family: "Overpass Mono", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  left: 174px;
+  letter-spacing: 0;
+  line-height: normal;
+  /* position: absolute; */
+  top: 27px;
+}
+
+.products .tooltip {
+  /* background-color: #ffffff;
+  max-width: 100%;
+  padding: 20px;*/
+  height: 400px;
+
+  /* position: absolute;
+  top: 3087px; */
+
+  /* width: 1446px; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.products .overlap-group {
+  background-color: #000000;
+  width: 100%;
+  /* height: 400px; */
+
+  /* background-color: #000000; */
+  position: relative;
+  /* height: 585px;
+  width: 1440px; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding: 106px;
+
+  flex-grow: 1;
+}
+
+.products .div-2AndImage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  margin-top: 45px;
+}
+
+.products .div-2 {
+  color: #ffffff;
+  font-family: "Overpass Mono", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 16px;
+  /* position: absolute;
+  top: 106px; */
+  /* left: 106px; */
+  width: 362px;
+}
+
+.products .div-2 ul {
+  list-style-type: disc; /* Add item points (bullets) */
+  padding-left: 20px; /* Add some left padding to the list items */
+  margin-top: 15px;
+}
+
+.products .image {
+  height: 85px;
+  left: 839px;
+  object-fit: cover;
+  /* position: absolute;
+  top: 363px; */
+  width: 488px;
+  /* height: auto; 
+  width: 100%;  */
+  align-self: end;
+}
+
+.products .pAndText2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+.products .products .p {
+  color: #ffffff;
+  font-family: "Overpass Mono", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+
+  letter-spacing: 0;
+  line-height: 16px;
+  /* position: absolute;
+  top: 349px;
+  width: 371px; */
+  /* left: 110px; */
+}
+
+.products .p ul {
+  list-style-type: disc; /* Add item points (bullets) */
+  padding-left: 20px; /* Add some left padding to the list items */
+  margin-top: 15px;
+}
+
+.products .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Overpass Mono", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.5;
+  text-align: right;
+  /* position: absolute;
+  top: 152px;
+  left: 851px; */
+  width: 478px;
+}
+
+.products .text-wrapper {
+  color: #ffffff;
+  font-family: "Overpass Mono", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.products .span {
+  line-height: 32px;
+  color: #ffffff;
+  font-family: "Overpass Mono", Helvetica;
+}
+
+.products .hero {
+  height: 801px;
+  left: 0;
+  /* position: absolute; */
+  top: 86px;
+  max-width: 100%;
+  display: flex;
+}
+
+.products .overlap {
+  background-color: #ffffff;
+  height: 805px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-start;
+  max-width: 100%;
+}
+
+.products .img,
+.image-2 {
+  height: 82.6%;
+  /* position: absolute;
+  top: 62px; */
+  width: 34.4%;
+
+  border: 2px solid;
+  border-color: #000000;
+  box-shadow: 5px 5px 0 0px rgba(0, 0, 0, 1);
+}
+
+.products .img {
+  margin-left: 42px;
+}
+
+.products .image-2 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* .products .image-2 {
+  height: 662px;
+  left: 574px;
+  position: absolute;
+  top: 62px;
+  width: 495px;
+} */
+.products .overlapGroups {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.products .overlap-2 {
+  background-color: #dab131;
+  border: 2px solid;
+  border-color: #000000;
+  height: 349px;
+  width: 291px;
+  /* left: 1089px;
+  position: absolute;
+  top: 381px;
+  width: 295px; */
+
+  /* position: absolute;
+  top: 381px;
+  width: 295px;
+  flex: 0;  */
+}
+
+.products .overlap-group-2 {
+  background-color: #d2cac7;
+  border: 2px solid;
+  border-color: #000000;
+  height: 303px;
+  /* left: 1089px; */
+  /* position: absolute;
+  top: 62px; */
+  width: 291px;
+
+  margin-bottom: 16px;
+}
+
+.products .image-3 {
+  height: 25px;
+  /* left: 224px;
+  position: absolute;
+  top: 253px; */
+  width: 24px;
+
+  margin-top: 93px;
+  margin-left: 229px;
+}
+
+.products .image-4 {
+  height: 25px;
+  /* left: 212px;
+  position: absolute;
+  top: 289px; */
+  width: 24px;
+
+  margin-top: 6px;
+  margin-left: 214px;
+}
+
+.products .text-wrapper-3 {
+  color: #000000;
+  font-family: "Overpass Mono", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 143px;
+  letter-spacing: 0;
+  line-height: normal;
+  /* position: absolute;
+  top: 20px;
+  left: 42px; */
+  width: 195px;
+  margin-top: 20px;
+  margin-left: 42px;
+}
+
+.products .text-wrapper-4 {
+  color: #000000;
+  font-family: "Overpass Mono", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 85px;
+  letter-spacing: 0;
+  line-height: normal;
+  /* position: absolute;
+  top: 27px;
+  left: 42px; */
+  width: 128px;
+
+  margin-top: 27px;
+  margin-left: 42px;
+}
+
+.products .image-5 {
+  height: 94px;
+  mix-blend-mode: multiply;
+  /* position: absolute;
+  top: 209px;
+  left: 154px; */
+  width: 110px;
+
+  margin-top: 94px;
+  margin-left: 154px;
+}
+
+.products .vertical-container {
+  /* height: 2200px; */
+  left: 0;
+  /* position: absolute;
+  top: 887px; */
+  max-width: 100%;
+}
+
+.products .overlap-3 {
+  background-color: #ffffff;
+  /* border: 2px solid;
+  border-color: #000000; */
+  /* height: 2204px; */
+  left: -2px;
+  position: relative;
+  top: -2px;
+  max-width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.products .overlap-3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("image-6.png");
+  background-repeat: repeat;
+  background-size: auto;
+}
+
+/* .products .productsList {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  margin-top: 41px;
+  margin-left: 7.5%;
+} */
+
+.products .productsList {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 41px;
+  width: 90%;
+}
+
+.products .checkbox {
+  margin: 10px;
+  border: 2px solid;
+  border-color: #000000;
+}
+
+.products .overlap-group-3 {
+  /* height: 513px; */
+  /* left: -2px; */
+  position: relative;
+  width: 303px;
+}
+
+.products .image-7 {
+  height: 303px;
+  object-fit: cover;
+  /* position: absolute;
+  top: 0; */
+  width: 303px;
+  border-bottom: 2px solid;
+  border-color: #000000;
+}
+
+.products .text-input {
+  background-color: #fff8ec;
+
+  height: 230px;
+  /* left: 0;
+  position: absolute;
+  top: 405px; */
+  width: 303px;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.products .text-input-2 {
+  background-color: #dab131;
+  border-top: 2px solid;
+  border-color: #000000;
+  height: 56px;
+  /* left: 0;
+  position: absolute;
+  top: 457px; */
+  width: 303px;
+}
+
+.products .cargotrousers {
+  color: #000000;
+  font-family: "New Tegomin", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  /* left: 18px;
+  position: absolute;
+  top: 420px; */
+}
+
+.products .rs {
+  color: #000000;
+  font-family: "Overpass Mono", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  /* position: absolute;
+  left: 157px;
+  top: 420px; */
+  text-align: right;
+  width: 280px;
+}
+
+.products .cargotrousers-2 {
+  color: #000000;
+  font-family: "Overpass Mono", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  /* position: absolute;
+  left: 78px;
+  top: 472px; */
+
+  background-color: #dab131;
+  border-top: 2px solid;
+  border-color: #000000;
+  height: 56px;
+  /* left: 0;
+  position: absolute;
+  top: 457px; */
+  width: 303px;
+  padding-top: 13px;
+}
+
+.products .cargotrousers-2:hover {
+  background-color: rgba(218, 177, 49, 0.7);
+}
+
+.products .overlap-wrapper {
+  height: 511px;
+  left: 59px;
+  /* position: absolute; */
+  top: 867px;
+  width: 305px;
+}
+
+.products .overlap-group-wrapper {
+  height: 511px;
+  left: 59px;
+  /* position: absolute; */
+  top: 1440px;
+  width: 305px;
+}
+
+.products .button {
+  height: 511px;
+  left: 400px;
+  /* position: absolute; */
+  top: 293px;
+  width: 305px;
+}
+
+.products .div-wrapper {
+  height: 511px;
+  left: 400px;
+  /* position: absolute; */
+  top: 867px;
+  width: 305px;
+}
+
+.products .button-2 {
+  height: 511px;
+  left: 400px;
+  /* position: absolute; */
+  top: 1440px;
+  width: 305px;
+}
+
+.products .container {
+  height: 511px;
+  left: 741px;
+  /* position: absolute; */
+  top: 293px;
+  width: 305px;
+}
+
+.products .container-2 {
+  height: 511px;
+  left: 741px;
+  /* position: absolute; */
+  top: 867px;
+  width: 305px;
+}
+
+.products .container-3 {
+  height: 511px;
+  left: 741px;
+  /* position: absolute; */
+  top: 1440px;
+  width: 305px;
+}
+
+.products .container-4 {
+  height: 511px;
+  left: 1082px;
+  /* position: absolute; */
+  top: 293px;
+  width: 305px;
+}
+
+.products .container-5 {
+  height: 511px;
+  left: 1082px;
+  /* position: absolute; */
+  top: 867px;
+  width: 305px;
+}
+
+.products .container-6 {
+  height: 511px;
+  left: 1082px;
+  /* position: absolute; */
+  top: 1440px;
+  width: 305px;
+}
+
+.products .text-input-3 {
+  background-color: #a7a6ff;
+  border: 2px solid;
+  border-color: #000000;
+  height: 90px;
+  /* left: 57px;
+  position: absolute;
+  top: 46px; */
+  width: 1325px;
+}
+
+.products .image-6 {
+  height: 2200px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  max-width: 100%;
+  background-repeat: repeat;
+}
+
+.products .text-wrapper-8 {
+  background-color: #a7a6ff;
+  border: 2px solid;
+  border-color: #000000;
+  color: #000000;
+  font-family: "Rubik Mono One", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  height: 86px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  width: 92%;
+  /* margin: 0 auto; */
+  margin-top: 48px;
+  padding-top: 15px;
+  z-index: 1;
+}
+
+.products .text-input-4 {
+  border: 2px solid;
+  border-color: #000000;
+  height: 90px;
+  /* left: 57px; */
+  /* position: absolute;
+  top: 164px; */
+  width: 92%;
+  margin-top: 32px;
+}
+
+.products button {
+  cursor: pointer;
+}
+
+.products .options-dropdown {
+  transition: 0.3s;
+}
+
+.products .all-sort-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* position: absolute; */
+  margin-top: 15px;
+  width: 1325px;
+  transition: 0.3s;
+}
+
+/* .text-wrapper-5:hover + .options-dropdown .sort-options {
+  left: 0px;
+  color: #000000;
+} */
+
+.products .text-wrapper-5 {
+  color: #000000;
+  font-family: "Overpass Mono", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  height: 59px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  width: 229px;
+  background: none;
+  border: none;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.products .text-wrapper-5:hover {
+  background-color: rgba(1, 1, 1, 0.1);
+}
+
+.products .text-wrapper-5:active {
+  background-color: rgba(1, 1, 1, 0.2);
+}
+
+.products .sort-options {
+  color: transparent;
+  font-family: "Overpass Mono", Helvetica;
+  font-size: 25px;
+  font-weight: 700;
+  height: 59px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  width: 229px;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  transition: 0.3s;
+  position: relative;
+  /* display: none; */
+
+  /* transform: translateX(-100%); 
+  transition: transform 1s ease; */
+}
+
+.products .sort-options:hover {
+  background-color: rgba(1, 1, 1, 0.1);
+}
+
+.products .sort-options:active {
+  background-color: rgba(1, 1, 1, 0.2);
+}
+
+.price-up {
+  left: -200px;
+}
+
+.price-down {
+  left: -410px;
+}
+
+.review-up {
+  left: -650px;
+}
+
+.review-down {
+  left: -870px;
+}
+
+.products .visible {
+  left: 0px;
+  color: #000000;
+}
+
+.products .text-wrapper-6 {
+  color: #00001c;
+  font-family: "Overpass Mono", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  height: 59px;
+  left: 1105px;
+  letter-spacing: 0;
+  line-height: normal;
+  /* position: absolute; */
+  text-align: right;
+  text-decoration: underline;
+  top: 184px;
+  width: 229px;
+}
+
+.products .text-wrapper-7 {
+  color: #000000;
+  font-family: "Overpass Mono", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  height: 59px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  width: 229px;
+  background: none;
+  border: none;
+  z-index: 1;
+  cursor: pointer;
+  margin-top: 100px;
+  margin-bottom: 89px;
+}
+
+.products .arrow {
+  height: 4px;
+  left: 212px;
+  /* position: absolute; */
+  top: 208px;
+  width: 1px;
+}
